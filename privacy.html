@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121212">
+  <title>ZenNonogram — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #121212;
+      --surface: #1a1a1a;
+      --line: #2a2a2a;
+      --text: #e6e6e6;
+      --muted: #8a8a8a;
+      --sage: #a8c3b0;
+      --sand: #d6c7a8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+      line-height: 1.65;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    main { max-width: 720px; margin: 0 auto; }
+    header { margin-bottom: 2.25rem; border-bottom: 1px solid var(--line); padding-bottom: 1.25rem; }
+    h1 { margin: 0 0 0.35rem; font-weight: 300; letter-spacing: 0.25em; font-size: 1.5rem; color: var(--sage); }
+    .meta { margin: 0; color: var(--muted); font-size: 0.9rem; }
+    nav { margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.9rem; }
+    a { color: var(--sage); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 1.25rem 1.4rem;
+      margin-bottom: 1rem;
+    }
+    h2 { margin: 0 0 0.6rem; font-size: 1rem; font-weight: 500; color: var(--sand); }
+    p, li { color: #d4d4d4; font-size: 0.94rem; }
+    ul { margin: 0.5rem 0 0.2rem; padding-left: 1.2rem; }
+    footer { margin-top: 2rem; color: var(--muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>PRIVACY POLICY</h1>
+      <p class="meta">ZenNonogram · Effective Date: 2026-11-25 · Developer: Amichai Cohen</p>
+      <nav>
+        <a href="./">Support &amp; FAQ</a>
+        <a href="./privacy.html">Privacy Policy</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <p>ZenNonogram respects your privacy and is designed to be played completely offline without creating an account.</p>
+    </section>
+
+    <section>
+      <h2>1. Information Stored Locally on Your Device</h2>
+      <p>ZenNonogram does not operate first-party servers and does not collect, transmit, or store personal gameplay data externally. The following state is stored strictly locally on your device using on-device storage (<code>localStorage</code> / WebKit storage):</p>
+      <ul>
+        <li>Current puzzle progress, grid size preference (5×5, 10×10, 15×15), solve statistics, and daily streak history.</li>
+        <li>App preferences including sound mute state and display language (English, Japanese, or Korean).</li>
+        <li>Your local In-App Purchase ("Remove Ads") entitlement flag and hint usage counters so ad-free hints work offline.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. Optional Advertising (Google AdMob) &amp; App Tracking Transparency</h2>
+      <p>To support optional rewarded video hints in the free tier, ZenNonogram integrates the Google Mobile Ads SDK (AdMob).</p>
+      <ul>
+        <li>If you tap <strong>Hint</strong> while online (and have not purchased <strong>Remove Ads</strong>), Google AdMob may process device identifiers (such as Apple's IDFA if authorized via App Tracking Transparency), coarse IP-derived location, diagnostics, and ad-interaction data to deliver and measure ads.</li>
+        <li>Apple's <strong>App Tracking Transparency (ATT)</strong> prompt asks whether you allow tracking. Choosing "Ask App Not to Track" lets you continue playing ZenNonogram with non-personalized rewarded ads.</li>
+        <li>More details on Google's data practices: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">policies.google.com/technologies/partner-sites</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. In-App Purchases (Apple StoreKit)</h2>
+      <p>ZenNonogram offers one non-consumable purchase ("Remove Ads", product ID <code>com.zennonogram.puzzle.remove_ads</code>) processed directly by Apple via StoreKit. We never receive or store your credit card, billing address, or Apple ID credentials.</p>
+    </section>
+
+    <section>
+      <h2>4. Children's Privacy</h2>
+      <p>ZenNonogram does not knowingly collect personal information from children under 13 (or the applicable minimum age in your jurisdiction).</p>
+    </section>
+
+    <section>
+      <h2>5. Data Retention &amp; Deletion</h2>
+      <p>All local ZenNonogram gameplay data remains on your device and can be permanently deleted at any time by uninstalling the app.</p>
+    </section>
+
+    <section>
+      <h2>6. Changes &amp; Contact</h2>
+      <p>We may update this Privacy Policy from time to time. Questions or requests may be submitted via <a href="https://github.com/AmichaiCohen/zennonogram-legal/issues" target="_blank" rel="noopener noreferrer">github.com/AmichaiCohen/zennonogram-legal/issues</a>.</p>
+    </section>
+
+    <footer>
+      <p>ZenNonogram · <code>com.zennonogram.puzzle</code> · <a href="./">Back to Support</a></p>
+    </footer>
+  </main>
+</body>
+</html>
